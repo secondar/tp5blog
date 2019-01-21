@@ -1,0 +1,1851 @@
+---------------------------------------------------------------
+[ 2019-01-16T17:51:39+08:00 ] 127.0.0.1 GET www.110.com/
+[运行时间：0.020002s] [吞吐率：50.00req/s] [内存消耗：1,134.49kb] [文件加载：35]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\Db' not found[D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\index\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2019-01-16T17:51:42+08:00 ] 127.0.0.1 GET www.110.com/user
+[运行时间：0.029001s] [吞吐率：34.48req/s] [内存消耗：1,229.45kb] [文件加载：36]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\user\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/user\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:51:42+08:00 ] 127.0.0.1 GET www.110.com/user
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：1,113.32kb] [文件加载：34]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\user\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/user\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:51:48+08:00 ] 127.0.0.1 POST www.110.com/user/index/login
+[运行时间：0.108006s] [吞吐率：9.26req/s] [内存消耗：1,823.07kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/user',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.110.com',
+  'accept' => '*/*',
+  'content-length' => '29',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\user\controller\Index->login[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\user\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'c4908c9f85cd450f38f9c1e9beda0d90' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `user_ip`='127.0.0.1',`logtimes`=23,`lastlog`='2019-01-16 17:51:48'  WHERE  `uid` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] INSERT INTO `log` (`user_ip` , `lastlog` , `uid` , `name` , `address`) VALUES ('127.0.0.1' , '2019-01-16 17:51:48' , 6 , 'admin' , '本机地址') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:51:51+08:00 ] 127.0.0.1 GET www.110.com/admin/
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,252.71kb] [文件加载：36]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/user',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:51:51+08:00 ] 127.0.0.1 GET www.110.com/admin/index/Welcome
+[运行时间：0.046002s] [吞吐率：21.74req/s] [内存消耗：1,972.07kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT count(uid) as countuser FROM `user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `log` ORDER BY `lastlog` DESC LIMIT 10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:51:54+08:00 ] 127.0.0.1 GET www.110.com/admin/Article
+[运行时间：0.068004s] [吞吐率：14.71req/s] [内存消耗：1,951.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\article.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` LIMIT 0,50 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:51:54+08:00 ] 127.0.0.1 GET www.110.com/admin/images/weixin.jpg
+[运行时间：0.014001s] [吞吐率：71.42req/s] [内存消耗：868.99kb] [文件加载：30]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'weixin.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:51:54+08:00 ] 127.0.0.1 GET www.110.com/admin/images/baoman/baoman_01.gif
+[运行时间：0.012001s] [吞吐率：83.33req/s] [内存消耗：869.02kb] [文件加载：30]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'baoman',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:52:00+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/add
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：1,947.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\editarticle.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:52:00+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/images/weixin.jpg
+[运行时间：0.016001s] [吞吐率：62.50req/s] [内存消耗：1,146.26kb] [文件加载：36]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:52:06+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/add
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,814.02kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\editarticle.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:52:06+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/images/weixin.jpg
+[运行时间：0.014001s] [吞吐率：71.42req/s] [内存消耗：1,146.26kb] [文件加载：36]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=1683a89801f123-0f618f8fd2914b-3a3a5d0c-13c680-1683a898020343; CNZZDATA1258513375=1689261845-1547167508-%7C1547167508; Hm_lvt_d46a84bd6b21a59c09ac3065ce41e52e=1547170316; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1547255146,1547429553,1547460198,1547519018; PHPSESSID=i1kkk5gbt6f4tdbrr3e7guesqd',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:54:03+08:00 ] 127.0.0.1 GET www.110.com/
+[运行时间：0.024001s] [吞吐率：41.66req/s] [内存消耗：1,132.58kb] [文件加载：35]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\Db' not found[D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\index\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:11+08:00 ] 127.0.0.1 GET www.110.com/user
+[运行时间：0.022002s] [吞吐率：45.45req/s] [内存消耗：1,111.32kb] [文件加载：34]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\user\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/user\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:54:15+08:00 ] 127.0.0.1 POST www.110.com/user/index/login
+[运行时间：0.109006s] [吞吐率：9.17req/s] [内存消耗：1,821.36kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/user',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.110.com',
+  'accept' => '*/*',
+  'content-length' => '29',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\user\controller\Index->login[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\user\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'c4908c9f85cd450f38f9c1e9beda0d90' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `user_ip`='127.0.0.1',`logtimes`=24,`lastlog`='2019-01-16 17:54:15'  WHERE  `uid` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] INSERT INTO `log` (`user_ip` , `lastlog` , `uid` , `name` , `address`) VALUES ('127.0.0.1' , '2019-01-16 17:54:15' , 6 , 'admin' , '本机地址') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:19+08:00 ] 127.0.0.1 GET www.110.com/admin/
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：1,124.84kb] [文件加载：34]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/user',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:54:19+08:00 ] 127.0.0.1 GET www.110.com/admin/index/Welcome
+[运行时间：0.049003s] [吞吐率：20.41req/s] [内存消耗：1,827.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT count(uid) as countuser FROM `user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `log` ORDER BY `lastlog` DESC LIMIT 10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:22+08:00 ] 127.0.0.1 GET www.110.com/admin/memberlist
+[运行时间：0.060003s] [吞吐率：16.67req/s] [内存消耗：1,951.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'memberlist',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Memberlist->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Memberlist.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\memberlist.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 0,50 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:28+08:00 ] 127.0.0.1 GET www.110.com/admin/Article
+[运行时间：0.061004s] [吞吐率：16.39req/s] [内存消耗：1,815.17kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\article.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `article` LIMIT 0,50 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:28+08:00 ] 127.0.0.1 GET www.110.com/admin/images/weixin.jpg
+[运行时间：0.013000s] [吞吐率：76.92req/s] [内存消耗：867.16kb] [文件加载：30]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'weixin.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:54:28+08:00 ] 127.0.0.1 GET www.110.com/admin/images/baoman/baoman_01.gif
+[运行时间：0.012001s] [吞吐率：83.33req/s] [内存消耗：867.19kb] [文件加载：30]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'baoman',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:54:54+08:00 ] 127.0.0.1 GET www.110.com/admin/
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：1,125.17kb] [文件加载：34]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/user',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:54:54+08:00 ] 127.0.0.1 GET www.110.com/admin/index/Welcome
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,827.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT count(uid) as countuser FROM `user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `log` ORDER BY `lastlog` DESC LIMIT 10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:56+08:00 ] 127.0.0.1 GET www.110.com/admin/memberlist
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,816.68kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'memberlist',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Memberlist->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Memberlist.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\memberlist.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 0,50 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:58+08:00 ] 127.0.0.1 GET www.110.com/admin/Article
+[运行时间：0.076004s] [吞吐率：13.16req/s] [内存消耗：1,815.17kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\article.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `article` LIMIT 0,50 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:54:58+08:00 ] 127.0.0.1 GET www.110.com/admin/images/weixin.jpg
+[运行时间：0.016001s] [吞吐率：62.50req/s] [内存消耗：867.16kb] [文件加载：30]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'weixin.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:54:58+08:00 ] 127.0.0.1 GET www.110.com/admin/images/baoman/baoman_01.gif
+[运行时间：0.015001s] [吞吐率：66.66req/s] [内存消耗：867.19kb] [文件加载：30]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'images',
+    2 => 'baoman',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:55:05+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/add
+[运行时间：0.055003s] [吞吐率：18.18req/s] [内存消耗：1,811.84kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\editarticle.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:55:05+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/images/weixin.jpg
+[运行时间：0.019001s] [吞吐率：52.63req/s] [内存消耗：1,144.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:56:01+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/add
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,812.31kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\editarticle.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:01+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/images/weixin.jpg
+[运行时间：0.015001s] [吞吐率：66.66req/s] [内存消耗：1,144.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:56:01+08:00 ] 127.0.0.1 GET www.110.com/admin/
+[运行时间：0.014001s] [吞吐率：71.42req/s] [内存消耗：1,125.17kb] [文件加载：34]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/user',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:56:01+08:00 ] 127.0.0.1 GET www.110.com/admin/index/Welcome
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：1,827.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT count(uid) as countuser FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `log` ORDER BY `lastlog` DESC LIMIT 10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:05+08:00 ] 127.0.0.1 GET www.110.com/admin/memberlist
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,816.68kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'memberlist',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Memberlist->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Memberlist.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\memberlist.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 0,50 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:07+08:00 ] 127.0.0.1 GET www.110.com/admin/Article
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：1,934.38kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\article.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `article` LIMIT 0,50 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:09+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/add
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,811.84kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\editarticle.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:09+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/images/weixin.jpg
+[运行时间：0.016001s] [吞吐率：62.50req/s] [内存消耗：1,144.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:56:36+08:00 ] 127.0.0.1 GET www.110.com/admin/
+[运行时间：0.028001s] [吞吐率：35.71req/s] [内存消耗：1,125.17kb] [文件加载：34]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/user',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\index.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:56:36+08:00 ] 127.0.0.1 GET www.110.com/admin/index/Welcome
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,827.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT count(uid) as countuser FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `log` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `log` ORDER BY `lastlog` DESC LIMIT 10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:40+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/add
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：1,932.24kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\editarticle.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:41+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/category
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：1,933.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->category[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\category.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:43+08:00 ] 127.0.0.1 GET www.110.com/admin/flink
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,917.06kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'flink',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\flink->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Flink.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\flink.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `link` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `link` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:44+08:00 ] 127.0.0.1 GET www.110.com/admin/Setting
+[运行时间：0.018001s] [吞吐率：55.55req/s] [内存消耗：1,247.34kb] [文件加载：37]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Setting',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Setting->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Setting.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\setting.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:56:49+08:00 ] 127.0.0.1 GET www.110.com/admin/adminlist
+[运行时间：0.060003s] [吞吐率：16.67req/s] [内存消耗：1,943.53kb] [文件加载：44]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'adminlist',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Adminlist->index[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Adminlist.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\adminlist.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `identity` = 1 LIMIT 0,50 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-16T17:56:53+08:00 ] 127.0.0.1 GET www.110.com/admin/flink/linkadd
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,245.95kb] [文件加载：37]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'flink',
+    2 => 'linkadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/flink',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\flink->linkadd[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Flink.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\flinkadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-16T17:57:00+08:00 ] 127.0.0.1 GET www.110.com/admin/Article/add
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：1,806.81kb] [文件加载：42]
+[ info ] [ LANG ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ss5v8am0urhmmsnlu55f92r74f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.110.com/admin/Article/add',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.110.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\01_q\phpStudy\PHPTutorial\WWW\tp\application\admin\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\01_q\phpStudy\PHPTutorial\WWW\tp\public/../application/admin\view\index\editarticle.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
